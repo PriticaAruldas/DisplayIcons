@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Xel-->
+    <link rel="stylesheet" href="node_modules/xel/themes/material.css">
+    <script src="node_modules/xel/xel.min.js"></script>
+    
+
+    <style>
+
+        /* .container-icon{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        } */
+    </style>
+</head>
+<body>
+
+   <x-card>
+       <header>
+           <h1>Icons</h1>
+       </header>
+       <main>
+           <x-input>
+            <x-icon name="search"></x-icon>
+            <x-label>Search</x-label>
+           </x-input>
+       </main>
+
+       <br> 
+       <div class="row">
+        <div class="col">
+        <div class="container-icon">
+            <x-buttons tracking="-1">
+                <x-button>
+                  <x-icon name="mail"></x-icon>
+                </x-button>
+        </div>
+        <label>Mail</label>
+
+        </div>
+        <div class="col">
+            <x-buttons tracking="-1">
+                <x-button>
+                  <x-icon name="delete"></x-icon>
+                </x-button>
+        </div>
+      
+        <!-- Force next columns to break to new line -->
+        <!-- <div class="w-100"></div> -->
+      
+        <div class="col">
+            <x-buttons tracking="-1">
+                <x-button>
+                  <x-icon name="settings"></x-icon>
+                </x-button>
+                <span>Settings</span>
+        </div>
+        <div class="col">
+            <x-buttons tracking="-1">
+                <x-button>
+                  <x-icon name="search"></x-icon>
+            </x-button>
+        </div>
+
+        <div class="col">
+            <x-buttons tracking="-1">
+                <x-button>
+                  <x-icon name="account_circle"></x-icon>
+            </x-button>
+        </div>
+      </div>      
+
+   </x-card>
+
+   <a href="www.google.com"><x-card>
+    <header>
+        <x-icon name="search"></x-icon>
+    </header>
+  
+    <main>
+        <xel-codeview id="code-view">&lt;x-icon name="mail"&gt;&lt;/x-icon&gt;</xel-codeview>      
+    </main>
+  </x-card></a>
+</body>
+</html>
