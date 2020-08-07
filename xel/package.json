@@ -34,7 +34,7 @@
   "description": "Widget toolkit for building native-like Electron, NW.js and Chrome apps",
   "devDependencies": {
     "fs-extra": "7.0.1",
-    "prismjs": "1.16.0",
+    "prismjs": "1.21.0",
     "rollup": "1.9.0"
   },
   "homepage": "https://xel-toolkit.org/",
